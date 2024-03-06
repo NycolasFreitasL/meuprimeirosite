@@ -1,1 +1,1 @@
-https://nycolasfreitasl.github.io/https:/meuprimeirosite
+https://nycolasfreitasl.github.io/meuprimeirosite
