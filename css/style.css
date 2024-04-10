@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(190, 190, 190);
+}
+header{
+    background-color: rgb(50, 86, 153);
+    padding: 3%;
+}
+.logo{
+    background-color: rgb(255, 255, 0);
+}
+nav{
+    background-color: rgb(78, 194, 209);
+}
+main{
+    background-color: rgb(156, 255, 8);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    background-color: rgb(237, 195, 248);
+}
+footer{
+    background-color: rgb(138, 43, 226);
+    padding: 3%;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
+h1,h2{
+    line-height: 3;
+}
+p{
+    line-height: 1.5;
+}
+ul,li{
+    line-height: 1.5;
+}
