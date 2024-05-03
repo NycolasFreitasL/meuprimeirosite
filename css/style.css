@@ -79,16 +79,23 @@ ul,li{
     background-color: rgb(90, 174, 5);
     color: rgb(255, 255, 255);
     padding: 0.5%;
+    border-style: solid;
+    padding: 2%;
     
 }
+
 .tabela{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.21);
     text-align: left;
+    border-style: solid;
 }
-.tabela,.tabelah1,.tabelap{
+
+.tabelap{
     padding: 2%;
     border-collapse: collapse;
+    border: 1.5pt rgb(255, 255, 255);
     border-style:solid;
+    list-style: none;
 }
