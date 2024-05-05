@@ -2,6 +2,7 @@ body{
     background-color: rgb(190, 190, 190);
     background-image: url(../img/fundo\ site.png);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
 }
 
 header{
@@ -102,7 +103,6 @@ ul,li{
     text-align: center;
     background-color: rgb(90, 174, 5);
     color: rgb(255, 255, 255);
-    padding: 0.5%;
     border-style: solid;
     padding: 2%;
     
@@ -127,4 +127,36 @@ ul,li{
 .subtitulo{
     padding: 2%;
     font-size: 150%;
+}
+
+.thgalinhas{
+    border: 1.5pt rgb(255, 255, 255);
+   text-align: center;
+   background-color: rgb(7, 136, 16);
+   color: white;
+   border-style: solid;
+   border-collapse: collapse;
+   padding: 2%;
+   font-size: 100%;
+}
+
+.tabelagalinhas{
+    width: 80%;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+}
+
+.tdgalinhas{
+    border: rgb(255, 255, 255);
+    padding: 2%;
+    border-collapse: collapse;
+    border-style: solid;
+    text-align: center;
+}
+
+.galinha{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
