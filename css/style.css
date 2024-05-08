@@ -2,7 +2,7 @@ body{
     background-color: rgb(190, 190, 190);
     background-image: url(../img/fundo\ site.png);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70%;
+    font-size: 80%;
 }
 
 header{
@@ -105,6 +105,7 @@ ul,li{
     color: rgb(255, 255, 255);
     border-style: solid;
     padding: 2%;
+    font-size: 150%;
     
 }
 
@@ -159,4 +160,21 @@ ul,li{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.imggaleria{
+    width: 100%;
+}
+
+.galeria{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna3{
+    width: 25%;
+}
+
+.gaelriastyle{
+    border: 1% solid white;
 }
