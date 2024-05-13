@@ -78,6 +78,10 @@ ul,li{
     line-height: 1.5;
 }
 
+.paragrafo{
+    padding: 1.5%;
+}
+
 .persomasc{
     background-color: rgba(6, 6, 6, 0.384);
     text-align: center;
@@ -128,7 +132,7 @@ ul,li{
 }
 
 .subtitulo{
-    padding: 2%;
+    padding: 1.5%;
     font-size: 150%;
 }
 
@@ -139,7 +143,7 @@ ul,li{
    color: #ffffff;
    border-style: solid;
    border-collapse: collapse;
-   font-size: 1em;
+   font-size: 1.2em;
    width: 20%;
 }
 
@@ -158,9 +162,10 @@ ul,li{
 }
 
 .galinha{
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    padding: 2%;
 }
 
 .imggaleria{
@@ -184,4 +189,9 @@ ul,li{
     font-size: 0.5em;
     text-align: center;
     color: #292929;
+}
+
+.audio{
+    margin-left: auto;
+    margin-right: auto;
 }
