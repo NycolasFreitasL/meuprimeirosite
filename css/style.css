@@ -143,6 +143,7 @@ ul,li{
 .subtitulo{
     padding: 1.5%;
     font-size: 150%;
+    font-weight: 500;
 }
 
 .thgalinhas{
@@ -196,7 +197,7 @@ ul,li{
 }
 
 .legenda{
-    font-size: 0.5em;
+    font-size: 0.8em;
     text-align: center;
     color: #292929;
 }
@@ -208,4 +209,11 @@ ul,li{
     
 a:hover{
     background-color: rgb(253, 253, 253);
+}
+
+img.floatimg{
+    float: left;
+    width:8%;
+    margin-right: 2%;
+    
 }
