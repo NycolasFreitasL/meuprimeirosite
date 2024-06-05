@@ -221,6 +221,20 @@ img.floatimg{
     margin-right: 2%;
     
 }
+.birdo {
+    width: 8%;
+    background: rgba(255, 0, 0, 0);
+    position: relative;
+    animation: mymove 10s infinite;
+    animation-delay: 2s;
+    float: right;
+}
+      
+@keyframes mymove {
+ from {right: -10%;}
+  to {right: 110%;}
+
+}
 
 @media only screen and (max-width: 550px){
     img.floatimg{
