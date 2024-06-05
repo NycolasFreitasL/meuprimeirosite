@@ -43,7 +43,7 @@ header{
     display: inline-block;
     text-align: center;
     padding: 2%;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 main{
@@ -72,6 +72,7 @@ footer{
     margin-top: auto;
     margin-bottom: 0%;
     text-align: center;
+    color: #7a7a7af8;
 }
 
 h1,h2{
@@ -120,6 +121,8 @@ ul,li{
     border-style: solid;
     padding: 2%;
     font-size: 1em;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .tabela{
@@ -138,6 +141,7 @@ ul,li{
     border-style:solid;
     list-style: none;
     font-size: 1em;
+    flex-wrap: wrap;
 }
 
 .subtitulo{
@@ -216,4 +220,21 @@ img.floatimg{
     width:8%;
     margin-right: 2%;
     
+}
+
+@media only screen and (max-width: 550px){
+    img.floatimg{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+    }
+    .home{
+        display: grid;
+        text-align:right
+    }
+    .imglogo{
+        width: 200%;
+    }
+
 }
