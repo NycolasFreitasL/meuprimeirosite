@@ -12,6 +12,11 @@ body {
   font-style: normal;
 }
 
+section{
+    position: -webkit- sticky;
+    position:sticky;
+}
+
 header{
     background-color: rgba(255, 255, 255, 0.573);
     padding: 3%;
@@ -223,8 +228,8 @@ img.floatimg{
 }
 .birdo {
     width: 8%;
-    background: rgba(255, 0, 0, 0);
     position: relative;
+    margin-top: -30%;
     animation: mymove 10s infinite;
     animation-delay: 2s;
     float: right;
@@ -234,6 +239,14 @@ img.floatimg{
  from {right: -10%;}
   to {right: 110%;}
 
+}
+
+.galinheiro{
+    text-align: center;
+}
+
+.galinheiroimg{
+    width: 10%;
 }
 
 @media only screen and (max-width: 550px){
