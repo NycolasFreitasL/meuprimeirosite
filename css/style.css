@@ -115,7 +115,38 @@ ul,li{
     width: 100%;
 }
 
+.fototext{
+    position: relative;
+}
 
+.perfil{
+    float:inline-start;
+    width: 25%;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.nome{
+    position:absolute;
+    bottom: -14.7em;
+    left: 1em;
+    font-size: 100%;
+    color: #ffffff;
+    padding: 0.2%;
+    border: #ffffff;
+    border-style: solid;
+    background-color: #4ba543;
+}
+
+.centerimg{
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.imgcontato{
+    width: 50%;
+}
 
 .tabelah1{
     border-collapse: collapse;
@@ -234,6 +265,15 @@ img.floatimg{
     animation-delay: 2s;
     float: right;
 }
+
+.contatoimg{
+    width: 15%;
+}
+
+.comprar{
+   width: 80%;
+   height: auto;
+}
       
 @keyframes mymove {
  from {right: -10%;}
@@ -264,4 +304,36 @@ img.floatimg{
         width: 200%;
     }
 
+}
+
+@media only screen and (max-width: 1110px){
+    .nome{
+        bottom: -12em;
+    }
+
+}
+
+@media only screen and (min-width: 1149px){
+    .nome{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1110px){
+    .nome{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 278px){
+    .nome{
+        display: none;
+    }
+    .fototext{
+        display: none;
+    }
+    .comprar{
+        display: none;
+    }
 }
