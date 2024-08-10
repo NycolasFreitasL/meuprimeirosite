@@ -292,9 +292,11 @@ form{
     padding: 2%;
     background-color: #0788101a;
     color: #ffffff;
+    align-items: center;
+    text-align: center;
 }
 input[type=text],select,textarea{
-    width: 100%;
+    width: 97%;
     margin: 1%;
     display: inline-block;
     padding: 0.5%;
@@ -303,10 +305,20 @@ input[type=text],select,textarea{
     font-size: 100%;
 }
 textarea{
-    height: 100px;
+    height: 5em;
+    resize: none;
 }
 input[type=text]{
-    width: 90%;
+    width: 97% ;
+}
+input[type=submit]{
+    text-align: center;
+    width: 30%;
+    height: 2em;
+    border-style: none;
+    border-radius: 10em;
+    background-color: #078810;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 550px){
